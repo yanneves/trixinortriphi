@@ -1,0 +1,29 @@
+{
+  "name": "tri-phi-bot",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Aaunel <support@aaunel.com>",
+  "description": "A bot to bump Tri-Phi on http://trixinortriphi.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaunel/trixinortriphi"
+  },
+  "contributors": [
+    {
+      "name": "Yann 'Aaunel' Eves-Hollis",
+      "email": "yann@aaunel.com"
+    }
+  ],
+  "keywords": [
+    "bot",
+    "tor"
+  ],
+  "dependencies": {
+    "request": "~2.31.0",
+    "socks5-http-client": "~0.1.6"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}

@@ -12,7 +12,8 @@ request.post({
 }, function(err, res, body) {
     try {
         var data = JSON.parse(body || '{}');
-        console.log("Mission winB" + " Count " + (data.winB || 'empty') + "!");
+        if (data.winB) console.log("Mission winB" + " Count " + data.winB + "! " + data.percB + "% agree!");
+        // if (data.winA) console.log("Mission loseA" + " Count " + data.winA + "! " + data.percA + "% disagree!");
     } catch(e) {
         console.log('Error!');
         console.dir(err);
